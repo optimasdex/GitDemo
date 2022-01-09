@@ -51,6 +51,8 @@ public class Utils
 	    JsonPath js = new JsonPath(resp);
 	    // branch code
 	    System.out.println("GIT Branch code");
+	    // AMEA branch code
+	    System.out.println("AMEAGIT Branch code");
 	    return js.getString(key);
 	    
 
