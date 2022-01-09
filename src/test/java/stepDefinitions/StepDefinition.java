@@ -92,6 +92,7 @@ public class StepDefinition extends Utils
 	public void deleteplace_payload() throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
 		req = given().log().all().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
+		System.out.println("Added new code here for GIT");
 		
 	}
 }
