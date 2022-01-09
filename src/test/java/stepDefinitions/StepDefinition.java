@@ -94,6 +94,11 @@ public class StepDefinition extends Utils
 		req = given().log().all().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
 		System.out.println("Added new code here for GIT");
 		
+		System.out.println("postjira4");
+		System.out.println("postjira5");
+		System.out.println("postjira6");
+		System.out.println("postjira7");
+		
 	}
 }
 
